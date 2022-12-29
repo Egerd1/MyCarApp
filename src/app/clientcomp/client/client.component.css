@@ -1,0 +1,15 @@
+.welcome{
+    padding-top: 30px;
+    margin-left: 50px;
+    font-size: 150px;
+}
+
+.welcome_sm{
+    padding-top: 1em;
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.log{
+    margin-left: -500px;
+}

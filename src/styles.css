@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+.backpicFront{
+    background-image: url("assets/carpic.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+}
+
+.backpicClient{
+    background-image: url("assets/dog.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+}
+
+.backpicCars{
+    background-image: url("assets/car2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.firstPage{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 70px;
+}
+
+/*nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+isolation: isolate;
+    position: relative;
+    background: transparent;
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+button::before{
+    z-index: -1;
+    position: absolute;
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50px;
+    transition: width 0.2s linear;
+    right: 0%;
+    top: 0%;
+    overflow: hidden;
+}*/
+
+button:hover::before{
+width: 100%;
+}
+
+button:hover{
+    color: #fff;
+
+}
+
+.leftEdge{
+    margin-left: 20px;
+}
